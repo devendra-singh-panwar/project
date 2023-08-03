@@ -1,0 +1,18 @@
+/* Add styles for the dark mode button */
+.dark-mode-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  color: #272121; /* Set the initial color for the moon icon */
+  cursor: pointer;
+  align-items: center;
+}
+
+.dark-mode-button:hover {   
+  color: #fff; /* Set the color for the sun icon on hover */
+}
+
+/* Add other styles for your application here */

@@ -1,0 +1,109 @@
+
+
+
+.share {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.google-drive {
+  text-align: center;
+  font-size: 32px;
+  background-image: linear-gradient(to right, #4285f4, #ea4335, #fbbc05, #34a853);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 18px;
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 20px;
+}
+
+.text h2 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.text span {
+  font-family: Arial, sans-serif;
+  white-space: nowrap; /* Prevent the text from wrapping to the next line */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis if the text overflows */
+}
+
+/* Override font-family for the whole body */
+body {
+  font-family: Arial, sans-serif;
+}
+.removeAccess{
+  margin-top: 23px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+body::before {
+  /* Background Animation - Removed for simplicity */
+}
+
+.dark-mode {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.header {
+  /* Header styles - Same as before */
+}
+
+.main-content {
+  /* Main Content styles - Same as before */
+}
+
+.file-upload,
+.display {
+  /* File Upload and Display styles - Same as before */
+}
+
+.file-card {
+  /* File Card styles - Same as before */
+  transition: transform 0.2s ease;
+}
+
+.file-card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  /* Footer styles - Same as before */
+}

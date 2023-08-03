@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 255, 255)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* index.css */
+
+:root {
+  --primary-bg-color: #f8f8f8; /* Light mode background color */
+  --primary-text-color: #000; /* Light mode text color */
+}
+
+body.dark-mode {
+  --primary-bg-color: #1a1a1a; /* Dark mode background color */
+  --primary-text-color: #fff; /* Dark mode text color */
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* Add other styles for your application here */

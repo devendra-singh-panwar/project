@@ -1,0 +1,63 @@
+/* Styles for the fileUpload section */
+.fileUpload {
+  margin-top: 20px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%; /* Adjust the width of the form */
+  margin-left: auto; /* Center the form horizontally */
+  margin-right: auto; /* Center the form horizontally */
+  margin-bottom: 40px;
+}
+
+/* Styles for the form elements */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* width: 100%; Make the form content full width */
+}
+
+.choose {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+input[type='file'] {
+  display: none; /* Hide the file input */
+}
+
+.textArea {
+  font-size: 16px;
+  /* width: 100%; Make the textArea full width */
+  text-align: center; /* Center the text in the textArea */
+}
+
+/* Style for the selected file text */
+input[type='file']:not([disabled]) + .textArea::before {
+  content: attr(data-file);
+  font-weight: bold;
+  color: #007bff;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* width: 100%; Make the button full width */
+}
+
+/* Hide the "Choose Image (File)" text when a file is selected */
+input[type='file']:not([disabled]) + .choose {
+  display: none;
+}

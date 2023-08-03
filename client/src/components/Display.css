@@ -1,0 +1,187 @@
+/*.display {
+  text-align: center;
+  text-align: center  ;
+  margin-top: 30px;
+}
+
+
+
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: 300px;
+
+  margin: 10px;
+}
+.image-item {
+  margin: 0;
+}
+.image-list img {
+  width: 250px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 7px  rgb(122, 113, 113);
+}
+.image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.data-item {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #007bff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.data-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.address {
+  margin-top: 10px;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff0037;
+}
+ 
+
+
+*/
+
+.display {
+  text-align: center;
+  margin-top: 30px;
+}
+.address {
+  margin-top: 10px;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.display {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: 300px;
+  margin: 10px;
+}
+
+.image-item {
+  margin: 0;
+}
+
+.image-list img {
+  width: 250px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 7px rgb(122, 113, 113);
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.data-item {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #007bff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.data-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.address {
+  margin-top: 10px;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff0037;
+}
+
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: 300px;
+  margin: 10px;
+}
+
+/* Style the anchor tags inside .image-list */
+.image-list a {
+  text-decoration: none; /* Remove underline */
+  padding: 5px; /* Add some padding around the links */
+  margin-top: 12px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow:0px 6px 7px rgb(104, 97, 97) ;
+  display: block;
+  word-wrap: break-word;
+}
+
+/* Apply styles when hovering over the links */
+.image-list a:hover {
+  background-color: #007bff;
+  color: white;
+}
